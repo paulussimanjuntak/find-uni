@@ -1,4 +1,19 @@
 /*NEW*/
+.is-unselecable{
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.dropdown-notif{
+  width: 20rem;
+}
+.bor{
+  border-top: 2px solid rgba(10, 10, 10, 0.1);
+  width: 280px;
+  margin: 0 auto;
+}
 .sh{
   position: relative;
   display: inline-block;
@@ -167,7 +182,7 @@
   text-decoration: none !important;
 }
 .text-indent {
-  text-indent: 14px !important;
+  text-indent: 20px !important;
 }
 .has-text-line-through {
     text-decoration: line-through !important;
@@ -2555,6 +2570,7 @@
 .w-365{width: 365px !important;}
 .w-150{width: 150px !important;}
 .w-300{width: 300px !important;}
+.w-600{max-width: 1000px !important;}
 .w-full {width: 100% !important;}
 .h-full {height: 100% !important;}
 .min-h-100 {min-height: 100px !important;}
